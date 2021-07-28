@@ -1,0 +1,49 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 580milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 580"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57611"}
+{"logLevel":"info","message":"Listening on port:57611"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSecond' and 'StepImplementation.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar beklendi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkOpenActivity' and 'StepImplementation.checkOpenActivity'"}
+{"logLevel":"debug","message":"Found Uygulama açılması kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickAlisverisetTikla' and 'StepImplementation.clickAlisverisetTikla'"}
+{"logLevel":"debug","message":"Found Alışveriş al butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tUygulama açılması kontrol edilir : public void checkOpenActivity()"}
+{"logLevel":"debug","message":"\t{} saniye kadar beklendi : public void waitForSecond(ınt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\tAlışveriş al butonuna tıklanır : public void clickAlisverisetTikla()"}
+Tem 23, 2021 1:23:46 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Uygulama açılması kontrol edilir' using 'class StepImplementation.checkOpenActivity"}
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Level value for root is  [INFO].
+log4j: root level set to INFO
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Setting property [target] to [System.out].
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+log4j: Class name: [org.apache.log4j.RollingFileAppender]
+log4j: Setting property [file] to [logging.log].
+log4j: Setting property [append] to [false].
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: setFile called: logging.log, false
+log4j: setFile ended
+log4j: Adding appender named [fileAppender] to category [root].
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

@@ -1,0 +1,198 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 542milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 542"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 50820"}
+{"logLevel":"info","message":"Listening on port:50820"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickKadinElement' and 'StepImplementation.clickKadinElement'"}
+{"logLevel":"debug","message":"Found Kadın seçeneğine tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickPant' and 'StepImplementation.clickPant'"}
+{"logLevel":"debug","message":"Found Pantolon sekmesi seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.swipeScreen' and 'StepImplementation.swipeScreen'"}
+{"logLevel":"debug","message":"Found Ekranı kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSecond' and 'StepImplementation.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar beklendi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkCatPage' and 'StepImplementation.checkCatPage'"}
+{"logLevel":"debug","message":"Found Kategoriler sayfası açıldığı doğrulanır. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickBackButton' and 'StepImplementation.clickBackButton'"}
+{"logLevel":"debug","message":"Found Geri butonuna basılır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkOpenActivity' and 'StepImplementation.checkOpenActivity'"}
+{"logLevel":"debug","message":"Found Uygulama açılması kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickAlisverisetTikla' and 'StepImplementation.clickAlisverisetTikla'"}
+{"logLevel":"debug","message":"Found Alışveriş yap butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkMainPage' and 'StepImplementation.checkMainPage'"}
+{"logLevel":"debug","message":"Found Alışveriş sayfasının açıldığı doğrulanır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkLoginPage' and 'StepImplementation.checkLoginPage'"}
+{"logLevel":"debug","message":"Found Giriş yap sayfasının açıldıgı kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.addFav' and 'StepImplementation.addFav'"}
+{"logLevel":"debug","message":"Found Son ürünü favorilere ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.categoiesPageClick' and 'StepImplementation.categoiesPageClick'"}
+{"logLevel":"debug","message":"Found Kategoriler sayfası açılır in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tKategoriler sayfası açılır : public void categoiesPageClick()"}
+{"logLevel":"debug","message":"\tAlışveriş sayfasının açıldığı doğrulanır : public void checkMainPage()"}
+{"logLevel":"debug","message":"\tGeri butonuna basılır : public void clickBackButton()"}
+{"logLevel":"debug","message":"\tGiriş yap sayfasının açıldıgı kontrol edilir : public void checkLoginPage()"}
+{"logLevel":"debug","message":"\t{} saniye kadar beklendi : public void waitForSecond(ınt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\tPantolon sekmesi seçilir : public void clickPant()"}
+{"logLevel":"debug","message":"\tSon ürünü favorilere ekle : public void addFav()"}
+{"logLevel":"debug","message":"\tKategoriler sayfası açıldığı doğrulanır. : public void checkCatPage()"}
+{"logLevel":"debug","message":"\tUygulama açılması kontrol edilir : public void checkOpenActivity()"}
+{"logLevel":"debug","message":"\tAlışveriş yap butonuna tıklanır : public void clickAlisverisetTikla()"}
+{"logLevel":"debug","message":"\tKadın seçeneğine tıklanır : public void clickKadinElement()"}
+{"logLevel":"debug","message":"\tEkranı kaydır : public void swipeScreen()"}
+Tem 23, 2021 3:37:46 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar beklendi' using 'class StepImplementation.waitForSecond"}
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Level value for root is  [INFO].
+log4j: root level set to INFO
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Setting property [target] to [System.out].
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+log4j: Class name: [org.apache.log4j.RollingFileAppender]
+log4j: Setting property [file] to [logging.log].
+log4j: Setting property [append] to [false].
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: setFile called: logging.log, false
+log4j: setFile ended
+log4j: Adding appender named [fileAppender] to category [root].
+log4j: System property is :null
+log4j: Standard DocumentBuilderFactory search succeded.
+log4j: DocumentBuilderFactory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+log4j: debug attribute= "true".
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Level value for root is  [INFO].
+log4j: root level set to INFO
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Setting property [target] to [System.out].
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+log4j: Class name: [org.apache.log4j.RollingFileAppender]
+log4j: Setting property [file] to [logging.log].
+log4j: Setting property [append] to [false].
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: setFile called: logging.log, false
+log4j: setFile ended
+log4j: Adding appender named [fileAppender] to category [root].
+log4j: System property is :null
+log4j: Standard DocumentBuilderFactory search succeded.
+log4j: DocumentBuilderFactory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+log4j: debug attribute= "true".
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Level value for root is  [INFO].
+log4j: root level set to INFO
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Setting property [target] to [System.out].
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+log4j: Class name: [org.apache.log4j.RollingFileAppender]
+log4j: Setting property [file] to [logging.log].
+log4j: Setting property [append] to [false].
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: setFile called: logging.log, false
+log4j: setFile ended
+log4j: Adding appender named [fileAppender] to category [root].
+log4j: System property is :null
+log4j: Standard DocumentBuilderFactory search succeded.
+log4j: DocumentBuilderFactory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+log4j: debug attribute= "true".
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Level value for root is  [INFO].
+log4j: root level set to INFO
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Setting property [target] to [System.out].
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+log4j: Class name: [org.apache.log4j.RollingFileAppender]
+log4j: Setting property [file] to [logging.log].
+log4j: Setting property [append] to [false].
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: setFile called: logging.log, false
+log4j: setFile ended
+log4j: Adding appender named [fileAppender] to category [root].
+log4j: System property is :null
+log4j: Standard DocumentBuilderFactory search succeded.
+log4j: DocumentBuilderFactory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+log4j: debug attribute= "true".
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Level value for root is  [INFO].
+log4j: root level set to INFO
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Setting property [target] to [System.out].
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+log4j: Class name: [org.apache.log4j.RollingFileAppender]
+log4j: Setting property [file] to [logging.log].
+log4j: Setting property [append] to [false].
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: setFile called: logging.log, false
+log4j: setFile ended
+log4j: Adding appender named [fileAppender] to category [root].
+5saniye kadar beklendi
+{"logLevel":"debug","message":"Executing 'Uygulama açılması kontrol edilir' using 'class StepImplementation.checkOpenActivity"}
+2021-07-23 03:37:51 INFO  Log:13 - Uygulamanın açılması kontrol edildi.
+2021-07-23 03:37:51 INFO  Log:13 - Uygulamanın açılması kontrol edildi.
+{"logLevel":"debug","message":"Executing 'Alışveriş yap butonuna tıklanır' using 'class StepImplementation.clickAlisverisetTikla"}
+Alışverişe başla butonuna basıldı
+2021-07-23 03:37:52 INFO  Log:13 - Alisveris butonuna tiklandi.
+{"logLevel":"debug","message":"Executing '{} saniye kadar beklendi' using 'class StepImplementation.waitForSecond"}
+2saniye kadar beklendi
+{"logLevel":"debug","message":"Executing 'Alışveriş sayfasının açıldığı doğrulanır' using 'class StepImplementation.checkMainPage"}
+2021-07-23 03:37:54 INFO  Log:13 - Anasayfa açıldı.
+{"logLevel":"debug","message":"Executing '{} saniye kadar beklendi' using 'class StepImplementation.waitForSecond"}
+1saniye kadar beklendi
+{"logLevel":"debug","message":"Executing 'Kategoriler sayfası açılır' using 'class StepImplementation.categoiesPageClick"}
+2021-07-23 03:37:56 INFO  Log:13 - Kategoriler sayfasına tıklandı.
+{"logLevel":"debug","message":"Executing '{} saniye kadar beklendi' using 'class StepImplementation.waitForSecond"}
+1saniye kadar beklendi
+{"logLevel":"debug","message":"Executing 'Kategoriler sayfası açıldığı doğrulanır.' using 'class StepImplementation.checkCatPage"}
+2021-07-23 03:37:58 INFO  Log:13 - kategoriler sayfası açıldı.
+{"logLevel":"debug","message":"Executing '{} saniye kadar beklendi' using 'class StepImplementation.waitForSecond"}
+1saniye kadar beklendi
+{"logLevel":"debug","message":"Executing 'Kadın seçeneğine tıklanır' using 'class StepImplementation.clickKadinElement"}
+2021-07-23 03:37:59 INFO  Log:13 - Kadın kategorisine tıklandı
+{"logLevel":"debug","message":"Executing '{} saniye kadar beklendi' using 'class StepImplementation.waitForSecond"}
+1saniye kadar beklendi
+{"logLevel":"debug","message":"Executing 'Pantolon sekmesi seçilir' using 'class StepImplementation.clickPant"}
+2021-07-23 03:38:00 INFO  Log:13 - Pantolon sekmesine tıklandı.
+{"logLevel":"debug","message":"Executing '{} saniye kadar beklendi' using 'class StepImplementation.waitForSecond"}
+2saniye kadar beklendi
+{"logLevel":"debug","message":"Executing 'Ekranı kaydır' using 'class StepImplementation.swipeScreen"}
+2021-07-23 03:38:04 INFO  Log:13 - Ekran kaydırıldı.
+2021-07-23 03:38:05 INFO  Log:13 - Ekran kaydırıldı.
+2021-07-23 03:38:06 INFO  Log:13 - Ekran kaydırıldı.
+2021-07-23 03:38:07 INFO  Log:13 - Ekran kaydırıldı.
+2021-07-23 03:38:09 INFO  Log:13 - Ekran kaydırıldı.
+{"logLevel":"debug","message":"Executing '{} saniye kadar beklendi' using 'class StepImplementation.waitForSecond"}
+1saniye kadar beklendi
+{"logLevel":"debug","message":"Executing 'Son ürünü favorilere ekle' using 'class StepImplementation.addFav"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

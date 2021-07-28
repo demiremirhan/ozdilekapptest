@@ -1,0 +1,76 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 642milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 642"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62160"}
+{"logLevel":"info","message":"Listening on port:62160"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSecond' and 'StepImplementation.waitForSecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar beklendi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickAlisverisetTikla' and 'StepImplementation.clickAlisverisetTikla'"}
+{"logLevel":"debug","message":"Found Alışveriş al butonuna tıklanır in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} saniye kadar beklendi : public void waitForSecond(ınt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\tAlışveriş al butonuna tıklanır : public void clickAlisverisetTikla()"}
+Tem 23, 2021 1:08:42 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar beklendi' using 'class StepImplementation.waitForSecond"}
+log4j:ERROR Could not parse file [log4j.xml].
+java.io.FileNotFoundException: C:\Users\testinium\IdeaProjects\ozdilekapptest\log4j.xml (Sistem belirtilen dosyayı bulamıyor)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:622)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:150)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:831)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:796)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:142)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at org.apache.log4j.xml.DOMConfigurator$1.parse(DOMConfigurator.java:749)
+	at org.apache.log4j.xml.DOMConfigurator.doConfigure(DOMConfigurator.java:871)
+	at org.apache.log4j.xml.DOMConfigurator.doConfigure(DOMConfigurator.java:755)
+	at org.apache.log4j.xml.DOMConfigurator.configure(DOMConfigurator.java:896)
+	at log.Log.<init>(Log.java:10)
+	at pages.StartPage.<init>(StartPage.java:13)
+	at StepImplementation.<init>(StepImplementation.java:13)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.thoughtworks.gauge.DefaultClassInitializer.initialize(DefaultClassInitializer.java:12)
+	at com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:29)
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:27)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59)
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41)
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14)
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33)
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19)
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44)
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+5saniye kadar beklendi
+{"logLevel":"debug","message":"Executing 'Alışveriş al butonuna tıklanır' using 'class StepImplementation.clickAlisverisetTikla"}
+Alışverişe başla butonuna basıldı
+{"logLevel":"debug","message":"Executing '{} saniye kadar beklendi' using 'class StepImplementation.waitForSecond"}
+2saniye kadar beklendi
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

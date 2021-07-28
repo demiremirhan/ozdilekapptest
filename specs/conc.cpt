@@ -1,0 +1,23 @@
+Created by testinium on 22.07.2021
+
+This is a concept file with following syntax for each concept.
+#Özdilek Uygulaması senaryosu
+*Uygulama açılması kontrol edilir
+*Alışveriş yap butonuna tıklanır
+*Alışveriş sayfasının açıldığı doğrulanır
+*Kategoriler sayfası açılır
+*Kategoriler sayfası açıldığı doğrulanır.
+*Kadın seçeneğine tıklanır
+*Pantolon sekmesi seçilir
+*Ekranı kaydır
+*Son ürünü favorilere ekle
+*Giriş yap sayfasının açıldıgı kontrol edilir
+*Geri butonuna basılır
+*ürünlerin yeniden listelendiği gözlemlenir
+*Hesabım ikonuna tıklanır
+*Giriş yap sayfasının açıldıgı kontrol edilir
+*Geri butonuna basılır
+*ürünlerin yeniden listelendiği gözlemlenir
+*Sepetim sayfasına tıklanır
+*"1" saniye kadar beklendi
+*Giriş yap sayfasının açıldıgı kontrol edilir
